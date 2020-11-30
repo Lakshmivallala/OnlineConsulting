@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- Basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Mobile Metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- Site Metas -->
+   <title>Login</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- Site Icons -->
+   <link rel="shortcut icon" href="images/fevicon.ico.png" type="image/x-icon" />
+   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- Site CSS -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Colors CSS -->
+   <link rel="stylesheet" href="css/colors.css">
+   <!-- ALL VERSION CSS -->
+   <link rel="stylesheet" href="css/versions.css">
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/custom.css">
+   <!-- Modernizer for Portfolio -->
+   <script src="js/modernizer.js"></script>
+   <!-- [if lt IE 9] -->
+   <style>
+body {
+  background-color: #ffe6e6;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+   </head>
+   <body class="clinic_version">
+      <!-- LOADER -->
+      <div id="preloader">
+         <img class="preloader" src="images/loaders/l1.webp" alt="">
+      
+
+
+    
+      </div>
+      <!-- end copyrights -->
+      <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+      <!-- all js files -->
+      <script src="js/all.js"></script>
+      <!-- all plugins -->
+      <script src="js/custom.js"></script>
+      <!-- map -->
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNUPWkb4Cjd7Wxo-T4uoUldFjoiUA1fJc&callback=myMap"></script>
+
+     <br>
+     <!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <img src="images/d7.jpg" alt="Nature" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="images/d8.jpg" alt="Snow" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="images/f1.jpeg" alt="Mountains" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="images/f2.jpeg" alt="Lights" onclick="myFunction(this);">
+    </div>
+    <div class="row">
+        <div class="column">
+          <img src="images/f3.jpeg" alt="Nature" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/f4.jpeg" alt="Snow" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/f5.jpeg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/f6.jpeg" alt="Mountains" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="images/f1.jpeg" alt="Mountains" onclick="myFunction(this);">
+          </div>
+        <div class="column">
+          <img src="images/f2.jpg" alt="Lights" onclick="myFunction(this);">
+        </div>
+  </div>
+  
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
